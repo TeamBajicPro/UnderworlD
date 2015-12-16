@@ -40,16 +40,17 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AutomatedSprite.cs" />
     <Compile Include="Characters\Character.cs" />
     <Compile Include="Characters\Elf.cs" />
     <Compile Include="Characters\FinalBoss.cs" />
     <Compile Include="Characters\Goblin.cs" />
     <Compile Include="Characters\MainHero.cs" />
     <Compile Include="Characters\Orc.cs" />
-    <Compile Include="Collision.cs" />
     <Compile Include="Interfaces\ICollect.cs" />
+    <Compile Include="Sprite.cs" />
+    <Compile Include="SpriteManager.cs" />
     <Compile Include="UnderworlD.cs" />
-    <Compile Include="GameObject.cs" />
     <Compile Include="Interfaces\IAttack.cs" />
     <Compile Include="Interfaces\ICharacter.cs" />
     <Compile Include="Interfaces\IDestroyable.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Item\Weapons\Bow.cs" />
     <Compile Include="Item\Weapons\Shield.cs" />
     <Compile Include="Item\Weapons\Sword.cs" />
+    <Compile Include="UserControlledSprite.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
