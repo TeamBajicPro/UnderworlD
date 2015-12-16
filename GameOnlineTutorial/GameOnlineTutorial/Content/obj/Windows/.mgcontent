@@ -4,7 +4,7 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/damianpelovski/Documents/GameOnlineTutorial/GameOnlineTutorial/Content/star.jpg</File>
-    <File>C:/Users/damianpelovski/Documents/GameOnlineTutorial/GameOnlineTutorial/Content/star2.jpg</File>
+    <File>C:/Users/damianpelovski/Documents/GameOnlineTutorial/GameOnlineTutorial/Content/MainChar.png</File>
+    <File>C:/Users/damianpelovski/Documents/GameOnlineTutorial/GameOnlineTutorial/Content/enemy1.PNG</File>
   </SourceFiles>
 </SourceFileCollection>

@@ -46,8 +46,9 @@
     <Compile Include="Characters\Goblin.cs" />
     <Compile Include="Characters\MainHero.cs" />
     <Compile Include="Characters\Orc.cs" />
+    <Compile Include="Collision.cs" />
     <Compile Include="Interfaces\ICollect.cs" />
-    <Compile Include="Game1.cs" />
+    <Compile Include="UnderworlD.cs" />
     <Compile Include="GameObject.cs" />
     <Compile Include="Interfaces\IAttack.cs" />
     <Compile Include="Interfaces\ICharacter.cs" />

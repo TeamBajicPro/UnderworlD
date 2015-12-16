@@ -1,5 +1,3 @@
-C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\Content\star.xnb
-C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\Content\star2.xnb
 C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\GameOnlineTutorial.exe
 C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\GameOnlineTutorial.pdb
 C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\MonoGame.Framework.dll
@@ -25,3 +23,5 @@ C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Wind
 C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\obj\x86\Debug\GameOnlineTutorial.exe
 C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\obj\x86\Debug\GameOnlineTutorial.pdb
 C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\obj\x86\Debug\UnderworlD.csprojResolveAssemblyReference.cache
+C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\Content\MainChar.xnb
+C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\Content\enemy1.xnb
