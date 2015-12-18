@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/damianpelovski/Documents/GameOnlineTutorial/GameOnlineTutorial/Content/enemy1.PNG</SourceFile>
-  <SourceTime>2015-12-16T13:35:40+02:00</SourceTime>
-  <DestFile>C:/Users/damianpelovski/Documents/GameOnlineTutorial/GameOnlineTutorial/Content/bin/Windows/enemy1.xnb</DestFile>
-  <DestTime>2015-12-16T13:40:12.920202+02:00</DestTime>
+  <SourceFile>C:/Users/damianpelovski/Documents/GameOnlineTutorial/GameOnlineTutorial/Content/playerSheet.png</SourceFile>
+  <SourceTime>2013-05-13T13:32:59+03:00</SourceTime>
+  <DestFile>C:/Users/damianpelovski/Documents/GameOnlineTutorial/GameOnlineTutorial/Content/bin/Windows/playerSheet.xnb</DestFile>
+  <DestTime>2015-12-18T14:11:18.2832384+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2015-11-27T12:12:22+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

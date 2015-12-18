@@ -6,7 +6,7 @@ using GameOnlineTutorial.Interfaces;
 
 namespace GameOnlineTutorial.Characters
 {
-    public class FinalBoss : ICharacter
+    public class FinalBoss : Character
     {
         public int Damage { get; }
         public void Attack(Character enemy)

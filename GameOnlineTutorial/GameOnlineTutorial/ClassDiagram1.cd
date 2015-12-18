@@ -14,7 +14,6 @@
       <HashCode>AAAACACAAAAAAAAAAAAAAAQAAIAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Characters\Elf.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="GameOnlineTutorial.Characters.FinalBoss" Collapsed="true" BaseTypeListCollapsed="true">
     <Position X="18" Y="6.75" Width="1.5" />
@@ -22,7 +21,6 @@
       <HashCode>AAAACACAAAAAAAAAAAAAAAQAAIAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Characters\FinalBoss.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="GameOnlineTutorial.Characters.Goblin" Collapsed="true" BaseTypeListCollapsed="true">
     <Position X="21.75" Y="6.5" Width="1.5" />
@@ -30,7 +28,6 @@
       <HashCode>AAAACACAAAAAAAAAAAAAAAQAAIAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Characters\Goblin.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="GameOnlineTutorial.Characters.MainHero" Collapsed="true" BaseTypeListCollapsed="true">
     <Position X="14.5" Y="5" Width="1.5" />
@@ -45,21 +42,6 @@
     <TypeIdentifier>
       <HashCode>AAAACACAAAAAAAAAAAAAAAQAAIAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Characters\Orc.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
-  </Class>
-  <Class Name="UnderworlD.Game1" Collapsed="true">
-    <Position X="25.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>EEQAEEIgAAAQAwAgAECAIAQABACAAQghAAACABAAAAQ=</HashCode>
-      <FileName>Game1.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="UnderworlD.GameObject" Collapsed="true">
-    <Position X="26.25" Y="2" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>GameObject.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="UnderworlD.Program" Collapsed="true">

@@ -40,6 +40,7 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AnimatedSprite.cs" />
     <Compile Include="AutomatedSprite.cs" />
     <Compile Include="Characters\Character.cs" />
     <Compile Include="Characters\Elf.cs" />
@@ -48,6 +49,7 @@
     <Compile Include="Characters\MainHero.cs" />
     <Compile Include="Characters\Orc.cs" />
     <Compile Include="Interfaces\ICollect.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Sprite.cs" />
     <Compile Include="SpriteManager.cs" />
     <Compile Include="UnderworlD.cs" />

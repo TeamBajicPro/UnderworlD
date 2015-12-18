@@ -13,15 +13,12 @@ namespace UnderworlD
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        SpriteManager spriteManager;
-        
-        
-        
-        
-        
+        Player player;
+        //spriteManager = new SpriteManager(this);    both in initialize method from spriteManager
+        //Components.Add(spriteManager);
         //variables for key logic
 
-        public UnderworlD()
+        public UnderworlD() : base()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
@@ -39,8 +36,7 @@ namespace UnderworlD
         {
             // TODO: Add your initialization logic here
 
-            spriteManager = new SpriteManager(this);
-            Components.Add(spriteManager);
+            
             base.Initialize();
         }
 
@@ -52,6 +48,8 @@ namespace UnderworlD
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            player = new Player(new Vector2(100, 100));
+            player.LoadContent(Content);
 
             // TODO: use this.Content to load your game content here
         }
@@ -76,8 +74,11 @@ namespace UnderworlD
                 Exit();
 
             
-            base.Update(gameTime);
             
+            // TODO: use this.Content to load your game content here
+
+            player.Update(gameTime);
+            base.Update(gameTime);
             // TODO: Add your update logic here
         }
         
@@ -90,8 +91,10 @@ namespace UnderworlD
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-            
-
+            spriteBatch.Begin();
+            //Draws our player on the screen
+            player.Draw(spriteBatch);
+            spriteBatch.End();
             base.Draw(gameTime);
         }
 
@@ -100,35 +103,3 @@ namespace UnderworlD
 }
 
 
-//animation logic
-//timeSinceLastFrame += gameTime.ElapsedGameTime.Milliseconds;
-
-//if (timeSinceLastFrame > milisecondsPerFrame)
-//{
-//    timeSinceLastFrame -= milisecondsPerFrame;
-//    ++starCurrentFrame.X;
-
-//    if (starCurrentFrame.X >= starSheetSize.X)
-//    {
-//        starCurrentFrame.X = 0;
-//        ++starCurrentFrame.Y;
-
-//        if (starCurrentFrame.Y >= starSheetSize.Y)
-//        {
-//            starCurrentFrame.Y = 0;
-//        }
-//    }
-//}
-
-//position1.X += speed1;
-//if (position1.X > (Window.ClientBounds.Width - star.Width) || position1.X <0)
-//{
-//    speed1 *= -1;
-//}
-
-//position2.Y += speed2;
-
-//if (position2.Y > (Window.ClientBounds.Height - star2.Height) || position2.Y < 0)
-//{
-//    speed2 *= -1;
-//}

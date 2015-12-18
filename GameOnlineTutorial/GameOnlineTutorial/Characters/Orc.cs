@@ -6,7 +6,7 @@ using GameOnlineTutorial.Interfaces;
 
 namespace GameOnlineTutorial.Characters
 {
-    public class Orc : ICharacter
+    public class Orc : Character
     {
         public int Damage { get; }
 

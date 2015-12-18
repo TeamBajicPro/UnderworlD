@@ -23,35 +23,6 @@ C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Wind
 C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\obj\x86\Debug\GameOnlineTutorial.exe
 C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\obj\x86\Debug\GameOnlineTutorial.pdb
 C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\obj\x86\Debug\UnderworlD.csprojResolveAssemblyReference.cache
-<<<<<<< HEAD
 C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\Content\MainChar.xnb
 C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\Content\enemy1.xnb
-=======
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\obj\x86\Debug\GameOnlineTutorial.exe
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\obj\x86\Debug\GameOnlineTutorial.pdb
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\Content\star.xnb
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\Content\star2.xnb
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\GameOnlineTutorial.exe
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\GameOnlineTutorial.pdb
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\MonoGame.Framework.dll
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\SharpDX.MediaFoundation.dll
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\SharpDX.dll
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\SharpDX.XAudio2.dll
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\SharpDX.DXGI.dll
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\SharpDX.Direct3D11.dll
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\SharpDX.Direct2D1.dll
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\SharpDX.XInput.dll
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\SharpDX.RawInput.dll
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\SharpDX.Direct3D9.dll
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\MonoGame.Framework.xml
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\SharpDX.MediaFoundation.xml
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\SharpDX.xml
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\SharpDX.XAudio2.xml
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\SharpDX.DXGI.xml
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\SharpDX.Direct3D11.xml
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\SharpDX.Direct2D1.xml
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\SharpDX.XInput.xml
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\SharpDX.RawInput.xml
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\SharpDX.Direct3D9.xml
-C:\Users\Jericho\Desktop\Underworld\UnderworlD\GameOnlineTutorial\GameOnlineTutorial\obj\x86\Debug\UnderworlD.csprojResolveAssemblyReference.cache
->>>>>>> 3b212d11a5f27bd5e8b80cb3f999db5c7d1e6cc6
+C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\Content\playerSheet.xnb

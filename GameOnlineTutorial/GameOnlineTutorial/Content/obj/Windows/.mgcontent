@@ -4,12 +4,8 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-<<<<<<< HEAD
     <File>C:/Users/damianpelovski/Documents/GameOnlineTutorial/GameOnlineTutorial/Content/MainChar.png</File>
     <File>C:/Users/damianpelovski/Documents/GameOnlineTutorial/GameOnlineTutorial/Content/enemy1.PNG</File>
-=======
-    <File>C:/Users/Jericho/Desktop/Underworld/UnderworlD/GameOnlineTutorial/GameOnlineTutorial/Content/star.jpg</File>
-    <File>C:/Users/Jericho/Desktop/Underworld/UnderworlD/GameOnlineTutorial/GameOnlineTutorial/Content/star2.jpg</File>
->>>>>>> 3b212d11a5f27bd5e8b80cb3f999db5c7d1e6cc6
+    <File>C:/Users/damianpelovski/Documents/GameOnlineTutorial/GameOnlineTutorial/Content/playerSheet.png</File>
   </SourceFiles>
 </SourceFileCollection>
