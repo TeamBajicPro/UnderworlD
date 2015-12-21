@@ -1,29 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Text;
+using GameOnlineTutorial.Interfaces;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using UnderworlD.Item;
 
 namespace GameOnlineTutorial
 {
-    public class Player : AnimatedSprite
+    public class Player : AnimatedSprite, IPlayer
     {
         float mySpeed = 100;
-
         bool attacking = false;
+        private int health;
+        private int damage;
         
-        /// <summary>
-        /// The constructor of the Player class
-        /// </summary>
-        /// <param name="position">Initial position</param>
-        public Player(Vector2 position) : base(position)
+        public Player(Vector2 position, int health, int damage, int experience) : base(position)
         {
             FramesPerSecond = 10;
-
-            //Adds all the players animations
             AddAnimation(12, 0, 0, "Down", 50, 50, new Vector2(0, 0));
             AddAnimation(1, 0, 0, "IdleDown", 50, 50, new Vector2(0, 0));
             AddAnimation(12, 50, 0, "Up", 50, 50, new Vector2(0, 0));
@@ -36,17 +34,41 @@ namespace GameOnlineTutorial
             AddAnimation(9, 230, 0, "AttackUp", 70, 80, new Vector2(-13, -27));
             AddAnimation(9, 310, 0, "AttackLeft", 70, 70, new Vector2(-30, -5));
             AddAnimation(9, 380, 0, "AttackRight", 70, 70, new Vector2(+15, -5));
-            //Plays our start animation
-            PlayAnimation("IdleDown");
+            this.Health = health;
+            this.Damage = damage;
+            this.Experience = experience;
+            //starting animation
+            PlayAnimation("IdleUp");
         }
+        
 
-        /// <summary>
-        /// Loads content specific to the player class
-        /// </summary>
+        public int Health {
+            get { return this.health; }
+            set {
+            if (value < 0)
+            {
+                throw new ArgumentException("Health cannot be negative");
+            }
+            this.health = value;
+        }
+        }
+        
+        public int Damage
+        {
+            get { return this.damage; }
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("Damage cannot be negative");
+                }
+                this.damage = value;
+            }
+        }
+        
         public void LoadContent(ContentManager content)
         {
             sTexture = content.Load<Texture2D>("playerSheet");
-
         }
 
         public override void Update(GameTime gameTime)
@@ -156,16 +178,32 @@ namespace GameOnlineTutorial
 
         }
 
-        /// <summary>
-        /// Runs every time an animation has finished playing
-        /// </summary>
-        /// <param name="AnimationName">Name of the ended animation</param>
         public override void AnimationDone(string animation)
         {
             if (animation.Contains("Attack"))
             {
                 attacking = false;
             }
+        }
+
+        public IEnumerable<IItem> Inventory { get; }
+
+        public void AddItemToInventory(IItem item)
+        {
+            throw new NotImplementedException();
+        }
+        
+
+        public void Heal(IItem item)
+        {
+            this.Health += item.healingEffect;
+        }
+
+        public int Experience { get; set; }
+
+        public void LevelUp()
+        {
+            this.Experience++;
         }
     }
 }

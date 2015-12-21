@@ -23,6 +23,8 @@ C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Wind
 C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\obj\x86\Debug\GameOnlineTutorial.exe
 C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\obj\x86\Debug\GameOnlineTutorial.pdb
 C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\obj\x86\Debug\UnderworlD.csprojResolveAssemblyReference.cache
-C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\Content\MainChar.xnb
-C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\Content\enemy1.xnb
 C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\Content\playerSheet.xnb
+C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\Content\orc.xnb
+C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\Content\forest.xnb
+C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\Content\elf.xnb
+C:\Users\damianpelovski\Documents\GameOnlineTutorial\GameOnlineTutorial\bin\Windows\Debug\Content\goblin.xnb

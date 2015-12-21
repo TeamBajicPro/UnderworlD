@@ -3,19 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using GameOnlineTutorial.Interfaces;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace GameOnlineTutorial.Characters
 {
-    public class Orc : Character
+    public class Orc : Enemy
     {
-        public int Damage { get; }
-
-        public void Attack(Character enemy)
+        public Orc(Texture2D texture, Rectangle form, int health, int damage)
+            : base(texture, form, health, damage)
         {
-            throw new NotImplementedException();
         }
-
-        public int Health { get; }
-        public string Name { get; }
     }
 }

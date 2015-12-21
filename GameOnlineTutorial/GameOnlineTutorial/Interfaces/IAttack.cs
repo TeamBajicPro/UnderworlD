@@ -8,7 +8,6 @@ namespace GameOnlineTutorial.Interfaces
 {
     public interface IAttack
     {
-        int Damage { get;}
-        void Attack(Character enemy);
+        void Attack(Player player, Enemy enemy);
     }
 }

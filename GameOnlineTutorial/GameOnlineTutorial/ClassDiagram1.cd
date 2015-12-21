@@ -1,205 +1,205 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="GameOnlineTutorial.Characters.Character" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="18.25" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAACACAAAAAAAAAAAAAAAQAAIAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Characters\Character.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
-  </Class>
   <Class Name="GameOnlineTutorial.Characters.Elf" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="20" Y="6.5" Width="1.5" />
+    <Position X="22.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACACAAAAAAAAAAAAAAAQAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Characters\Elf.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameOnlineTutorial.Characters.FinalBoss" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="18" Y="6.75" Width="1.5" />
+    <Position X="20.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACACAAAAAAAAAAAAAAAQAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Characters\FinalBoss.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameOnlineTutorial.Characters.Goblin" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="21.75" Y="6.5" Width="1.5" />
+    <Position X="24.5" Y="6.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACACAAAAAAAAAAAAAAAQAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Characters\Goblin.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="GameOnlineTutorial.Characters.MainHero" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="14.5" Y="5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAACASAAAAAAACAAAAAAAQBAIAAAAAAAAAAAgAAQAA=</HashCode>
-      <FileName>Characters\MainHero.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
-  </Class>
   <Class Name="GameOnlineTutorial.Characters.Orc" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="15.75" Y="6.75" Width="1.5" />
+    <Position X="18.5" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACACAAAAAAAAAAAAAAAQAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Characters\Orc.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="UnderworlD.Program" Collapsed="true">
-    <Position X="25.25" Y="2.5" Width="1.5" />
+    <Position X="28" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="UnderworlD.Item.Food" Collapsed="true">
-    <Position X="12.5" Y="1.75" Width="1.5" />
+    <Position X="15.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Item\Food.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="UnderworlD.Item.Injection" Collapsed="true">
-    <Position X="17" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Item\Injection.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="UnderworlD.Item.Item" Collapsed="true">
-    <Position X="10.25" Y="0.5" Width="1.5" />
+  <Class Name="GameOnlineTutorial.Item.Item" Collapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAAAACAAgAAAAAAAAAIAAAAAAgAAAAA=</HashCode>
       <FileName>Item\Item.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="UnderworlD.Item.Pill" Collapsed="true">
-    <Position X="3.5" Y="1.75" Width="1.5" />
+    <Position X="6.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Item\Pill.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="UnderworlD.Item.Potion" Collapsed="true">
-    <Position X="8" Y="1.75" Width="1.5" />
+    <Position X="10.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Item\Potion.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="UnderworlD.Item.Water" Collapsed="true">
-    <Position X="10.25" Y="1.75" Width="1.5" />
+    <Position X="13" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Item\Water.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="UnderworlD.Weapons.Axe" Collapsed="true">
-    <Position X="14.75" Y="1.75" Width="1.5" />
+    <Position X="17.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Item\Weapons\Axe.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameOnlineTutorial.Weapons.Bow" Collapsed="true">
-    <Position X="19.25" Y="1.75" Width="1.5" />
+    <Position X="22" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Item\Weapons\Bow.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameOnlineTutorial.Weapons.Shield" Collapsed="true">
-    <Position X="1.25" Y="1.75" Width="1.5" />
+    <Position X="4" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Item\Weapons\Shield.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameOnlineTutorial.Weapons.Sword" Collapsed="true">
-    <Position X="5.75" Y="1.75" Width="1.5" />
+    <Position X="8.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Item\Weapons\Sword.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="UnderworlD.Magic.Blizzard" Collapsed="true">
-    <Position X="3" Y="4.75" Width="1.5" />
+    <Position X="5.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Magic\Blizzard.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="UnderworlD.Magic.Fireball" Collapsed="true">
-    <Position X="5.25" Y="4.75" Width="1.5" />
+    <Position X="8" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Magic\Fireball.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="UnderworlD.Magic.Iceblast" Collapsed="true">
-    <Position X="7.5" Y="4.75" Width="1.5" />
+    <Position X="10.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Magic\Iceblast.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="UnderworlD.Magic.Magic" Collapsed="true">
-    <Position X="4" Y="3.5" Width="1.5" />
+    <Position X="6.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAgAAAAAAAAAAAAA=</HashCode>
       <FileName>Magic\Magic.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="UnderworlD.Magic.Meteor" Collapsed="true">
-    <Position X="0.75" Y="4.75" Width="1.5" />
+    <Position X="3.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Magic\Meteor.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="GameOnlineTutorial.Interfaces.IAttack" Collapsed="true">
-    <Position X="0.5" Y="6.5" Width="1.5" />
+  <Class Name="GameOnlineTutorial.AnimatedSprite" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>ABQAgAAAAABQCgAAAABAEAAAAABgQAAAACAAIgAAAAA=</HashCode>
+      <FileName>AnimatedSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOnlineTutorial.Player" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACASBAAAAgACCAAAAAAABAAAAAAAAACAAAgAAQAw=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOnlineTutorial.UnderworlD" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEEAAAAAAAwAAAAAAAAAAAKAAAAgBAAAAAAAAACQ=</HashCode>
+      <FileName>UnderworlD.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GameOnlineTutorial.Sprite" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAAAAAgAgAAAAIAAAAAAAAgCAAAIAAAEAAAA=</HashCode>
+      <FileName>Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="GameOnlineTutorial.Interfaces.IAttack" Collapsed="true">
+    <Position X="3.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IAttack.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="GameOnlineTutorial.Interfaces.ICharacter" Collapsed="true">
-    <Position X="0.5" Y="7.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Interfaces\ICharacter.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
   <Interface Name="GameOnlineTutorial.Interfaces.IDestroyable" Collapsed="true">
-    <Position X="3.5" Y="6.5" Width="1.5" />
+    <Position X="6.25" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IDestroyable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="GameOnlineTutorial.Interfaces.IExperience" Collapsed="true">
-    <Position X="3.5" Y="8" Width="1.5" />
+    <Position X="6.25" Y="8" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAQAA=</HashCode>
       <FileName>Interfaces\IExperience.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="GameOnlineTutorial.Interfaces.IHeal" Collapsed="true">
-    <Position X="5.75" Y="8" Width="1.5" />
+    <Position X="8.5" Y="8" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IHeal.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="GameOnlineTutorial.Interfaces.IPlayer" Collapsed="true">
-    <Position X="0.5" Y="9.5" Width="1.5" />
+    <Position X="3.25" Y="9.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IPlayer.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="GameOnlineTutorial.Content.ICollect" Collapsed="true">
-    <Position X="8" Y="8" Width="1.5" />
+    <Position X="10.75" Y="8" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
       <FileName>Interfaces\ICollect.cs</FileName>

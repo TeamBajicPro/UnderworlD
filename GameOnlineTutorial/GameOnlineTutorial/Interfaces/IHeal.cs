@@ -1,7 +1,9 @@
 ﻿namespace GameOnlineTutorial.Interfaces
+    
 {
     public interface IHeal
     {
-        void Heal();
+        
+        void Heal(IItem item);
     }
 }

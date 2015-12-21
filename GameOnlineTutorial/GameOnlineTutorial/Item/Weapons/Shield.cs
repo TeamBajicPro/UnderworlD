@@ -6,7 +6,7 @@ using UnderworlD.Item;
 
 namespace GameOnlineTutorial.Weapons
 {
-    public class Shield : Item
+    public class Shield : Item.Item
     {
     }
 }

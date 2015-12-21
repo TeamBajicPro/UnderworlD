@@ -10,7 +10,7 @@ namespace UnderworlD
 
         static void Main()
         {
-            using (var game = new UnderworlD())
+            using (var game = new GameOnlineTutorial.UnderworlD())
                 game.Run();
 
         }

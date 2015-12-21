@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using GameOnlineTutorial.Interfaces;
 
-namespace UnderworlD.Item
+namespace GameOnlineTutorial.Item
 {
-    public abstract class Item
+    public abstract class Item : IItem
     {
-        private string itemName;
-        private int healingEffect; // potion gives a flat and instant increase, ex + 200 hp
-        private int permenentDmgBoost; // items that give a small amount of damage, permenently , ex + 5dmg
-        private int permenentDefBoost; // items that give a small amount of defense, permenently, ex + 10 def
-        private int permenentHealthBoost; // items that give a small amount of healrth, permenently, ex + 10hp
+        public string itemName { get; }
+        public int healingEffect { get; }
+        public int permenentDmgBoost { get; }
+        public int permenentDefBoost { get; }
+        public int permenentHealthBoost { get; }
     }
 }

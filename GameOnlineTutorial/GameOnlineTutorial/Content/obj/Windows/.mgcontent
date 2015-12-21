@@ -4,8 +4,10 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/damianpelovski/Documents/GameOnlineTutorial/GameOnlineTutorial/Content/MainChar.png</File>
-    <File>C:/Users/damianpelovski/Documents/GameOnlineTutorial/GameOnlineTutorial/Content/enemy1.PNG</File>
     <File>C:/Users/damianpelovski/Documents/GameOnlineTutorial/GameOnlineTutorial/Content/playerSheet.png</File>
+    <File>C:/Users/damianpelovski/Documents/GameOnlineTutorial/GameOnlineTutorial/Content/orc.png</File>
+    <File>C:/Users/damianpelovski/Documents/GameOnlineTutorial/GameOnlineTutorial/Content/forest.png</File>
+    <File>C:/Users/damianpelovski/Documents/GameOnlineTutorial/GameOnlineTutorial/Content/elf.png</File>
+    <File>C:/Users/damianpelovski/Documents/GameOnlineTutorial/GameOnlineTutorial/Content/goblin.png</File>
   </SourceFiles>
 </SourceFileCollection>

@@ -6,7 +6,7 @@ using GameOnlineTutorial.Content;
 
 namespace GameOnlineTutorial.Interfaces
 {
-    public interface IPlayer : ICharacter, ICollect, IHeal, IExperience
+    public interface IPlayer :  ICollect, IHeal, IExperience
     {
 
     }

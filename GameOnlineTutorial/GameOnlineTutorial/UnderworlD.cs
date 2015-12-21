@@ -1,22 +1,25 @@
-﻿using System.Security.Cryptography.X509Certificates;
-using GameOnlineTutorial;
+﻿using GameOnlineTutorial.Characters;
+using GameOnlineTutorial.Interfaces;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace UnderworlD
+namespace GameOnlineTutorial
 {
-    /// <summary>
-    /// This is the main type for your game.
-    /// </summary>
-    public class UnderworlD : Game
+    
+    public class UnderworlD : Game, IAttack
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         Player player;
-        //spriteManager = new SpriteManager(this);    both in initialize method from spriteManager
-        //Components.Add(spriteManager);
-        //variables for key logic
+        Enemy orc;
+        private Enemy goblin;
+        private Enemy elf;
+        private Texture2D forest;
+        
+        //Screen parameters
+        private int screenWidth;
+        private int screenHeight;
 
         public UnderworlD() : base()
         {
@@ -35,7 +38,6 @@ namespace UnderworlD
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
             
             base.Initialize();
         }
@@ -48,8 +50,15 @@ namespace UnderworlD
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            player = new Player(new Vector2(100, 100));
+            forest = Content.Load<Texture2D>("forest");
+            player = new Player(new Vector2(350, 435), 200, 20, 0);
             player.LoadContent(Content);
+            orc = new Orc(Content.Load<Texture2D>("orc"), new Rectangle(100, 100, 70, 70), 120, 50);
+            elf = new Elf(Content.Load<Texture2D>("elf"), new Rectangle(500, 200, 70, 70), 150, 20);
+            goblin = new Goblin(Content.Load<Texture2D>("goblin"), new Rectangle(200, 300, 70, 70), 100, 30);
+
+            screenWidth = GraphicsDevice.Viewport.Width;
+            screenHeight = GraphicsDevice.Viewport.Height;
 
             // TODO: use this.Content to load your game content here
         }
@@ -72,14 +81,13 @@ namespace UnderworlD
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-
-            
             
             // TODO: use this.Content to load your game content here
 
             player.Update(gameTime);
             base.Update(gameTime);
             // TODO: Add your update logic here
+            
         }
         
         /// <summary>
@@ -92,13 +100,24 @@ namespace UnderworlD
 
             // TODO: Add your drawing code here
             spriteBatch.Begin();
-            //Draws our player on the screen
+            spriteBatch.Draw(forest, Vector2.Zero, Color.White);
             player.Draw(spriteBatch);
+            elf.Draw(spriteBatch);
+            orc.Draw(spriteBatch);
+            goblin.Draw(spriteBatch);
             spriteBatch.End();
             base.Draw(gameTime);
         }
 
 
+        public void Attack(Player player, Enemy enemy)
+        {
+           //collision if ()
+            {
+                enemy.Health -= player.Damage;
+            }
+        }
+        
     }
 }
 

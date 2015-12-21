@@ -5,7 +5,7 @@ using System.Text;
 
 namespace UnderworlD.Item
 {
-    public class Potion : Item
+    public class Potion : GameOnlineTutorial.Item.Item
     {
     }
 }

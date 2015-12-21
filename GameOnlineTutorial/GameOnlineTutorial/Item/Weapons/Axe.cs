@@ -8,7 +8,7 @@ namespace UnderworlD.Weapons
 {
     using global::UnderworlD.Item;
 
-    public class Axe : Item
+    public class Axe : GameOnlineTutorial.Item.Item
     {
     }
 }
